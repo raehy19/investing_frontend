@@ -1,7 +1,7 @@
 import Layout from '../src/components/Layout';
 import Home from '../src/components/Home';
 
-const Main = () => {
+const App = () => {
 	return (
 		<Layout>
 			<Home />
@@ -9,4 +9,4 @@ const Main = () => {
 	);
 };
 
-export default Main;
+export default App;
