@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Navbar from '../Navbar';
+import Navbar from './Navbar';
 
 const Layout = ({ children }) => {
 	return (
@@ -24,6 +24,7 @@ const Container = styled.div`
 `;
 
 const Content = styled.div`
+	background-color: ghostwhite;
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
