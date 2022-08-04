@@ -1,11 +1,12 @@
 import Layout from '../src/components/Layout';
+import Home from '../src/components/Home';
 
-const Home = () => {
+const Main = () => {
 	return (
 		<Layout>
-			<div style={{ backgroundColor: '#bbbbbb', width: '100%' }}>HOME</div>
+			<Home />
 		</Layout>
 	);
 };
 
-export default Home;
+export default Main;
