@@ -1,11 +1,5 @@
-import Layout from '../../src/components/Layout';
-
-const App = () => {
-	return (
-		<Layout>
-			<div>order</div>
-		</Layout>
-	);
+const Orderpage = () => {
+	return <div>order</div>;
 };
 
-export default App;
+export default Orderpage;

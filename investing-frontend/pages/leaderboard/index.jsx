@@ -1,11 +1,5 @@
-import Layout from '../../src/components/Layout';
-
-const App = () => {
-	return (
-		<Layout>
-			<div>leaderboard</div>
-		</Layout>
-	);
+const Leaderboardpage = () => {
+	return <div>leaderboard</div>;
 };
 
-export default App;
+export default Leaderboardpage;

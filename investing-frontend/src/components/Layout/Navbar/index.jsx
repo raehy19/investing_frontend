@@ -6,9 +6,9 @@ const Navbar = () => {
 	return (
 		<Container>
 			<Button onClick={() => router.push('/')}>홈</Button>
-			<Button>관심</Button>
-			<Button>랭킹</Button>
-			<Button>잔고</Button>
+			<Button onClick={() => router.push('/interests')}>관심</Button>
+			<Button onClick={() => router.push('/leaderboard')}>랭킹</Button>
+			<Button onClick={() => router.push('/balance')}>잔고</Button>
 		</Container>
 	);
 };

@@ -1,11 +1,7 @@
-import Layout from '../../src/components/Layout';
+import Chart from '../../src/components/Chart';
 
-const App = () => {
-	return (
-		<Layout>
-			<div>chart</div>
-		</Layout>
-	);
+const Chartpage = () => {
+	return <Chart />;
 };
 
-export default App;
+export default Chartpage;

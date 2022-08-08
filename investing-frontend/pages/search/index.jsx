@@ -1,11 +1,5 @@
-import Layout from '../../src/components/Layout';
-
-const App = () => {
-	return (
-		<Layout>
-			<div>search</div>
-		</Layout>
-	);
+const Searchpage = () => {
+	return <div>search</div>;
 };
 
-export default App;
+export default Searchpage;
