@@ -1,19 +1,23 @@
-import SearchBar from './SearchBar';
-import Stocks from './Stocks';
+import SearchBar from '../../src/components/SearchBar';
+import Stocks from '../../src/components/Stocks/Stocks';
 import styled from 'styled-components';
 
 const Home = () => {
 	const stocks = [
 		{
-			id: 's1',
-			title: 'AAPL',
-			amount: 891.55,
+			ticker: '000660',
+			name: 'SK하이닉스',
+			price: 92000,
+			change: -3100,
+			p_change: '3.26%'
 		},
 
 		{
-			id: 's2',
-			title: 'TSLA',
-			amount: 161.45,
+			ticker: '009830',
+			name: '한화솔루션',
+			price: 45700,
+			change: 1350,
+			p_change: '3.05%'
 		},
 	];
 

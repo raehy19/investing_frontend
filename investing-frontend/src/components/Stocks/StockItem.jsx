@@ -3,8 +3,10 @@ import styled from 'styled-components';
 function StockItem(props) {
 	return (
 		<Container>
-			<h2>{props.title}</h2>
-			<h2>${props.amount}</h2>
+			<h2>{props.name}</h2>
+			<h2>{props.price}</h2>
+			<h2>{props.change}</h2>
+			<h2>{props.p_change}</h2>
 		</Container>
 	);
 }
