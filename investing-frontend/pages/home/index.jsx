@@ -21,11 +21,29 @@ const Home = () => {
 		},
 	];
 
+	const users = [
+		{
+			id: 1,
+			name: 'SK',
+			budget: 92000,
+			place: 1,
+			p_change: '3.26%'
+		},
+
+		{
+			ticker: '009830',
+			name: '한화',
+			price: 45700,
+			place: 1,
+			p_change: '3.05%'
+		},
+	];
+
 	return (
 		<Container className="App">
 			<h1>주식</h1>
 			<button>로그인</button>
-			<SearchBar />
+			<SearchBar stockItems={stocks}/>
 			<Stocks items={stocks} />
 		</Container>
 	);
