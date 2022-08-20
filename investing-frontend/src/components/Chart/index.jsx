@@ -280,6 +280,6 @@ const Chart = ({ name }) => {
 export default Chart;
 
 const Container = styled.div`
-	height: 100%;
+	height: 80%;
 	width: 100%;
 `;
