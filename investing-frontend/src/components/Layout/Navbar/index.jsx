@@ -20,7 +20,7 @@ const Container = styled.div`
 	justify-content: space-evenly;
 	align-items: center;
 	width: 100%;
-	height: 50px;
+	height: 60px;
 	position: fixed;
 	max-width: 480px;
 	min-width: 320px;

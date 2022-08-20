@@ -7,6 +7,7 @@ const Layout = ({ children }) => {
 		<Container>
 			<Content>{children}</Content>
 			<Navbar />
+			<MarginForNavbar />
 		</Container>
 	);
 };
@@ -17,6 +18,7 @@ const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-between;
 	width: 100vw;
 	height: 100vh;
 	margin: 0 auto;
@@ -34,4 +36,9 @@ const Content = styled.div`
 	height: 100%;
 	max-width: 480px;
 	min-width: 320px;
+`;
+
+const MarginForNavbar = styled.div`
+	width: 100vw;
+	height: 60px;
 `;
