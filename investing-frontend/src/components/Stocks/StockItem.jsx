@@ -1,8 +1,10 @@
+import { useRouter } from 'next/router';
 import styled from 'styled-components';
 
 function StockItem(props) {
+	const router = useRouter();
 	return (
-		<Container>
+		<Container onClick={() => router.push(`/chart/${props.ticker}`)}>
 			<h2 style={{ width: '30%' }}>{props.name}</h2>
 			<h2>{props.price}</h2>
 			<h2>{props.change}</h2>

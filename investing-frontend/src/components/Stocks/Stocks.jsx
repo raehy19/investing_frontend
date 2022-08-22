@@ -8,6 +8,7 @@ function Stocks(props) {
 			<StockItem name="종목명" price="현재가" change="등락" p_change="등락률" />
 			{props.items.map((props) => (
 				<StockItem
+					ticker={props.ticker}
 					name={props.name}
 					price={props.price}
 					change={props.change}
