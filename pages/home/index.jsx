@@ -1,4 +1,4 @@
-import SearchBar from '../../src/components/SearchBar';
+import SearchBar from '../../src/components/SearchBar.jsx';
 import Stocks from '../../src/components/Stocks/Stocks';
 import styled from 'styled-components';
 
